@@ -14,11 +14,13 @@ div#dados{
 section{
     padding: 32px;
     width: 400px;
+    height: 312px;
     border-radius: 10px;
-    margin: auto;  
-    box-shadow: 3px 3px 10px rgb(68, 68, 68); 
-    background-color: rgb(247, 246, 245); 
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(68, 68, 68);
+    background-color: rgb(247, 246, 245);
 }
+
 
 footer{
     text-align: center;
@@ -27,18 +29,27 @@ h2{
     font-family: 'Rowdies', cursive;
 }
 
-div#resultado{
-
-    padding-top: 5px;
-    text-align: justify;
-    font-weight: bolder;
-
-}
-button#btnContar{
-   float: none;
-}
 /* limpas as setas do campo do input tipo Number*/
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
+    
+}
+.btn-primary{
+    display: block;
+    position: relative;
+    float: right;
+   
+    
+}
+
+.btn-primary#limpar{
+    display: block;
+    position: relative;
+    margin-right: 20px;    
+}
+.btn-primary:hover{
+    background-color: red;
+    transition: background-color 1s;
+    border: 2px solid  brown;
     
 }
